@@ -1,0 +1,13 @@
+@import url('__heading/additional__heading.css');
+@import url('__img/additional__img.css');
+@import url('__text/additional__text.css');
+
+.additional__item {
+    width: 284px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 330px;
+    padding: 16px;
+}

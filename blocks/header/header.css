@@ -1,0 +1,17 @@
+@import url('./__logo/header__logo.css');
+@import url('./__lang-cont/header__lang-cont.css');
+
+.header {
+    align-self: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 1184px;
+}
+
+@media screen and (max-width: 1279px) {
+    .header {
+        min-width: 100%;
+    }
+}
+

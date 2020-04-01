@@ -1,0 +1,25 @@
+@import url('__subtitle/cover__subtitle.css');
+@import url('__title/cover__title.css');
+@import url('__img/cover__img.css');
+
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    min-width: 1184px;
+    align-items: center;
+    min-height: 216px;
+}
+
+.cover:hover .cover__img {
+    opacity: 0.3;
+    transition: 0.3s ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        min-width: 100vw;
+    }
+}

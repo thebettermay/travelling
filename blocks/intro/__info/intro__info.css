@@ -1,0 +1,10 @@
+@import url('__text-bold/intro__text-bold.css');
+@import url('__number/intro__number.css');
+
+.intro__info {
+    max-width: 383px;
+    min-width: 283px;
+    display: flex;
+    flex-direction: column;
+    
+}

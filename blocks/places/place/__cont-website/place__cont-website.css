@@ -1,0 +1,21 @@
+@import url('__paragraph/place__paragraph.css');
+@import url('__url-heading/place__url_heading.css');
+@import url('__url/place__url.css');
+
+.place__cont-website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__cont-website {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__cont-website {
+        width: 100%;
+    }
+}

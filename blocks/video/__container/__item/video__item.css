@@ -1,0 +1,34 @@
+@import url('__duration/video__duration.css');
+@import url('__icon_play/video__icon_play.css');
+@import url('__img/video__img.css');
+@import url('__subtitle/video__subtitle.css');
+@import url('__title/video__title.css');
+@import url('__link/video__link.css');
+
+.video__item {
+    width: 583px;
+    max-height: 323px;
+    position: relative;
+    z-index: 0;
+}
+
+.video__item:hover .video__img {
+    opacity: 0.2;
+    transition: 0.3s ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 1279px) {
+    .video__item {
+        width: 49.5%;
+        max-height: 280px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .video__item {
+        width: 100%;
+        margin-bottom: 5%;
+        max-height: 200px;
+    }
+    
+}

@@ -1,0 +1,26 @@
+@import url('content-subtitle/content-subtitle.css');
+@import url('__content-title/comments__content-title.css');
+@import url('__container/comments__container.css');
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1184px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1279px) {
+    .comments {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comments{
+        min-width: 100%;
+    }
+}
+
+

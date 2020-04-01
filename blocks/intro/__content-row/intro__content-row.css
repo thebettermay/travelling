@@ -1,0 +1,8 @@
+@import url('__text_add/intro__text_add.css');
+@import url('__text_main/intro__text_main.css');
+
+.intro__content-row{
+    display: flex;
+    max-width: 984px;
+    justify-content: space-between;
+}

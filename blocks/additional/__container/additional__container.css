@@ -1,0 +1,7 @@
+@import url('__item/additional__item.css');
+
+.additional__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1184px;
+}
